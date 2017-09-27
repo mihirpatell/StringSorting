@@ -1,0 +1,44 @@
+TEST CASES:
+
+Input: “Orange9banana10apple. apricot “
+Expected Output: Orange
+		 apple
+		 apricot
+		 banana
+
+Input: “ “
+Expected Output: 
+
+Input: “Gianna08”
+Expected Output: Gianna
+
+Input: “Aaa, AAa8aaA A”
+Expected Output: A
+		 AAa
+		 Aaa
+		 aaA
+
+Input: “wU-Tang Clan,JayZ;KanyeWest.Tupac:Biggie”
+Expected Output: Biggie
+		 Clan
+		 JayZ
+		 KanyeWest
+ 		 Tang
+		 Tupac
+		 wU
+
+Input:
+Expected Output: Error, incorrect number of parameters
+
+Input: “Hello1Hello2Goodbye”
+Expected Output: Goodbye
+		 Hello
+		 Hello
+
+Input: “javascript00java. “
+Expected Output: java
+		 javascript
+
+Input: “Hello HeLlo”
+Expected Output: HeLlo
+		 Hello
